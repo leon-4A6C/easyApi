@@ -1,0 +1,26 @@
+{
+  "name": "easy-api-wrapper",
+  "version": "1.0.0",
+  "description": "make an easy api wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leon-4A6C/node-easy-api-wrapper.git"
+  },
+  "keywords": [
+    "api",
+    "api",
+    "wrapper",
+    "fast",
+    "api"
+  ],
+  "author": "leon in 't Veld",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leon-4A6C/node-easy-api-wrapper/issues"
+  },
+  "homepage": "https://github.com/leon-4A6C/node-easy-api-wrapper#readme"
+}
