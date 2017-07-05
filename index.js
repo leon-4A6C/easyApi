@@ -1,12 +1,12 @@
 const https = require('https');
 
-class TheMovieDatabase {
-  constructor(apiKey) {
-    this.apiKey = apiKey;
-    this.baseUrl = "api.themoviedb.org";
-    this.basePath = "/3";
+class EasyApi {
+  constructor(conf) {
+    this.apiKey = conf.apiKey;
+    this.baseUrl = conf.baseUrl;
+    this.basePath = conf.basePath;
     this.endPath = "?api_key="+this.apiKey;
-    this.endPoints = require("./endPoints.json");
+    this.endPoints = conf.endPoints;
     this._setup();
   }
 
@@ -88,4 +88,4 @@ class TheMovieDatabase {
   }
 }
 
-module.exports = TheMovieDatabase;
+module.exports = EasyApi;
